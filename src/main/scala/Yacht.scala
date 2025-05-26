@@ -9,4 +9,4 @@ object Yacht:
          case "little straight" if dice.sorted == (1 to 5)      => 30
          case "big straight" if dice.sorted == (2 to 6)         => 30
          case "choice"                                          => dice.sum
-         case _                                                 => 1
+         case _                                                 => 0
